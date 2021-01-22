@@ -139,8 +139,10 @@ p {
 a {
   color: #555; 
   text-decoration: none;
+  transition: all .5s;
 }
 a:hover {
+  transition: all .5s;
   opacity: .5; }
 
 

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
 @import url('https://unpkg.com/aos@2.3.1/dist/aos.css');
 
+// ▼ grobal
 .main{
   min-height: 800px;
 }
@@ -103,10 +104,11 @@ footer::after{
   margin-bottom: 60px;
 }
 
-
+// ▼ Home
 .Home{
   article{
     padding: 3rem;
+    margin-bottom: 3rem;
     background-color: #ffffffbd;
     text-align: center;
     .HomeTitle{
