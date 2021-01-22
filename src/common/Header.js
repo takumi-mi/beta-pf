@@ -7,7 +7,7 @@ export default function Header() {
       <header class="row">
         <Link to="/" class="one-half column">
           <h1 class="Title">
-            ver.β
+            Open.β
             <span>portfolio site and technical blog.</span>
           </h1>
         </Link>
