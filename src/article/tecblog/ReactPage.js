@@ -1,8 +1,9 @@
 import React from "react";
-import List from "./tecblog/vue/List";
-import HowToStart from "./tecblog/vue/HowToStart";
+import List from "./react/List";
+import HowToStart from "./react/HowToStart";
+import HowToScss from "./react/HowToScss";
 
-export default function VuePage() {
+export default function ReactPage() {
   return (
     <div>
       <hr />
@@ -10,6 +11,8 @@ export default function VuePage() {
         <List />
         <hr />
         <HowToStart />
+        <hr />
+        <HowToScss />
       </div>
     </div>
   );

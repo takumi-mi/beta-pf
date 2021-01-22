@@ -1,8 +1,8 @@
 import React from "react";
-import List from "./tecblog/css/List";
-import HowToStart from "./tecblog/css/HowToStart";
+import List from "./vue/List";
+import HowToStart from "./vue/HowToStart";
 
-export default function P5Page() {
+export default function VuePage() {
   return (
     <div>
       <hr />
