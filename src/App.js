@@ -14,7 +14,6 @@ import P5Page from "./article/P5Page";
 import CSSPage from "./article/CSSPage";
 
 import AOS from "aos";
-import "../../../node_modules/aos/dist/aos.css";
 
 export default function App() {
   AOS.init({
