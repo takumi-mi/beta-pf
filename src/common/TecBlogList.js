@@ -26,6 +26,28 @@ export default function TecBlog() {
           </Link>
         </div>
       </div>
+      <div class="row">
+        <div
+          class="one-half column"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
+          <Link to="/tec-blog/p5" class="button column">
+            p5
+          </Link>
+        </div>
+        <div
+          class="one-half column"
+          data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="700"
+        >
+          <Link to="/tec-blog/css" class="button column">
+            css
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Portfolio() {
+export default function Works() {
   return (
     <div>
       <div class="row">
@@ -11,7 +11,7 @@ export default function Portfolio() {
           data-aos-delay="100"
           class="one-half column"
         >
-          <Link to="/portfolio/engineer" className="button column">
+          <Link to="/works/engineer" className="button column">
             engineer
           </Link>
         </div>
@@ -21,7 +21,7 @@ export default function Portfolio() {
           data-aos-delay="300"
           class="one-half column"
         >
-          <Link to="/portfolio/design" className="button column">
+          <Link to="/works/design" className="button column">
             design
           </Link>
         </div>

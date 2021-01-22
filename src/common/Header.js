@@ -16,7 +16,10 @@ export default function Header() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/portfolio">Prtfolio</Link>
+            <Link to="/works">Works</Link>
+          </li>
+          <li>
+            <Link to="/biography">Biography</Link>
           </li>
           <li>
             <Link to="/tec-blog">TecBlog</Link>

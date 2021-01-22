@@ -1,14 +1,14 @@
 import React from "react";
 
-import TecBlogList from "./common/TecBlogList";
+import WorksList from "./common/WorksList";
 
-export default function TecBlog() {
+export default function Portfolio() {
   return (
     <div>
       <h1 data-aos="fade" data-aos-duration="1000">
-        TecBlog
+        Works
       </h1>
-      <TecBlogList />
+      <WorksList />
     </div>
   );
 }
