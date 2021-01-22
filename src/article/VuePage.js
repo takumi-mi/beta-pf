@@ -1,7 +1,6 @@
 import React from "react";
-import List from "./tecblog/react/List";
-import HowToStart from "./tecblog/react/HowToStart";
-import HowToScss from "./tecblog/react/HowToScss";
+import List from "./tecblog/vue/List";
+import HowToStart from "./tecblog/vue/HowToStart";
 
 export default function VuePage() {
   return (
@@ -11,8 +10,6 @@ export default function VuePage() {
         <List />
         <hr />
         <HowToStart />
-        <hr />
-        <HowToScss />
       </div>
     </div>
   );
