@@ -3,17 +3,23 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div>
+    <div class="container">
       <header class="row">
-        <h1 class="one-half column">
-          <Link to="/">Takumi</Link>
-        </h1>
-        <ul class="one-half column">
-          <li class="one-half column">
+        <Link to="/" class="one-half column">
+          <h1 class="Title">
+            ver.β
+            <span>portfolio site and technical blog.</span>
+          </h1>
+        </Link>
+        <ul class="one-half column List">
+          <li>
             <Link to="/">Home</Link>
           </li>
-          <li class="one-half column">
-            <Link to="/react">React.js</Link>
+          <li>
+            <Link to="/portfolio">Prtfolio</Link>
+          </li>
+          <li>
+            <Link to="/tec-blog">TecBlog</Link>
           </li>
         </ul>
       </header>

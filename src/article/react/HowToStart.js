@@ -26,7 +26,7 @@ export default function HowToStart() {
       <p>node-sassをインストールしてファイルの拡張子を変更する</p>
       <h4>入力コマンド</h4>
       <pre>
-        <code>yarn add node-sass</code>
+        <code class="prettyprint lang-js">yarn add node-sass</code>
       </pre>
       <h4>ファイルの拡張子の変更</h4>
       <pre>
