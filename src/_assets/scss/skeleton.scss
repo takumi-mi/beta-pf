@@ -99,6 +99,11 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
+  body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -130,7 +135,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #333; 
+  color: #555; 
+  text-decoration: none;
 }
 a:hover {
   opacity: .5; }
@@ -147,6 +153,7 @@ input[type="button"] {
   height: 38px;
   padding: 0 30px;
   color: #555;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -286,7 +293,9 @@ code {
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  border-radius: 4px;
+  line-height:1.8;
+ }
 pre > code {
   display: block;
   padding: 1rem 1.5rem;

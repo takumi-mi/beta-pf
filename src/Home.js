@@ -1,14 +1,17 @@
 import React from "react";
-import Header from "./common/Header";
-import Footer from "./common/Footer";
+import { Link } from "react-router-dom";
 
-export default function ReactPage() {
+export default function Home() {
   return (
     <div>
-      <Header />
-      <h3>勉強したことをまとめるサイト</h3>
-      <hr />
-      <Footer />
+      <div class="row">
+        <Link to="/portfolio" class="one-half column button">
+          Portfolio
+        </Link>
+        <Link to="/tec-blog" class="one-half column button">
+          TecBlog
+        </Link>
+      </div>
     </div>
   );
 }
