@@ -113,6 +113,9 @@ footer::after{
 .imgList{
   width: 100%;
   min-height: 1000px;
+  a:hover{
+    opacity: 0.8;
+  }
 }
 
 // ▼ Home

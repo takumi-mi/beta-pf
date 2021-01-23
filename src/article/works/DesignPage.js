@@ -6,41 +6,103 @@ export default function ReactPage() {
     <div>
       <div className="imgList">
         <hr />
-        <StackGrid columnWidth={"33.33%"} gutterWidth={20} gutterHeight={30}>
-          <a href="https://pin.it/hLPBSbf" target="_blank">
+        <StackGrid
+          columnWidth={"33.33%"}
+          gutterWidth={20}
+          gutterHeight={30}
+          duration={800}
+          appearDelay={70}
+        >
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
             <img
               key="key1"
               src={require("../../_assets/works/design/2dcg/works1.png")}
             />
           </a>
-          <a href="https://pin.it/4DnxE2P" target="_blank">
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
             <img
               key="key2"
               src={require("../../_assets/works/design/2dcg/works2.png")}
             />
           </a>
-          <a href="https://pin.it/4DnxE2P" target="_blank">
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
             <img
               key="key3"
               src={require("../../_assets/works/design/2dcg/works3.png")}
             />
           </a>
-          <a href="https://pin.it/4DnxE2P" target="_blank">
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
             <img
               key="key4"
               src={require("../../_assets/works/design/2dcg/works4.png")}
             />
           </a>
-          <a href="https://pin.it/4DnxE2P" target="_blank">
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
             <img
               key="key5"
               src={require("../../_assets/works/design/2dcg/works5.png")}
             />
           </a>
-          <img
-            key="key6"
-            src={require("../../_assets/works/design/2dcg/works6.png")}
-          />
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            target="_blank"
+          >
+            <img
+              key="key6"
+              src={require("../../_assets/works/design/2dcg/works6.png")}
+            />
+          </a>
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/3dcg/"
+            target="_blank"
+          >
+            <img
+              key="key7"
+              src={require("../../_assets/works/design/3dcg/works1.png")}
+            />
+          </a>
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/3dcg/"
+            target="_blank"
+          >
+            <img
+              key="key8"
+              src={require("../../_assets/works/design/3dcg/works2.png")}
+            />
+          </a>
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/3dcg/"
+            target="_blank"
+          >
+            <img
+              key="key9"
+              src={require("../../_assets/works/design/3dcg/works3.png")}
+            />
+          </a>
+          <a
+            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/3dcg/"
+            target="_blank"
+          >
+            <img
+              key="key10"
+              src={require("../../_assets/works/design/3dcg/works4.jpg")}
+            />
+          </a>
         </StackGrid>
       </div>
     </div>
