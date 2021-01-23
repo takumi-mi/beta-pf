@@ -6,7 +6,7 @@ export default function ReactPage() {
   return (
     <div>
       <hr />
-      <div class="article" data-aos="fade" data-aos-duration="1000">
+      <div className="article" data-aos="fade" data-aos-duration="1000">
         <hr />
         <HowToStart />
         <hr />

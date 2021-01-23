@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div class="container">
-      <header class="row">
-        <Link to="/" class="one-half column">
-          <h1 class="Title">
+    <div className="container">
+      <header className="row">
+        <Link to="/" className="one-half column">
+          <h1 className="Title">
             Open.β
             <span>portfolio site and technical blog.</span>
           </h1>
         </Link>
-        <ul class="one-half column List">
+        <ul className="one-half column List">
           <li>
             <Link to="/">Home</Link>
           </li>

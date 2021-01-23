@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 export default function Header() {
   return (
     <div>
-      <div class="Bg">
+      <div className="Bg">
         <Particles
           params={{
             particles: {

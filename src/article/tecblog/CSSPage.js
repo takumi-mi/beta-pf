@@ -6,7 +6,7 @@ export default function P5Page() {
   return (
     <div>
       <hr />
-      <div class="article" data-aos="fade" data-aos-duration="1000">
+      <div className="article" data-aos="fade" data-aos-duration="1000">
         <List />
         <hr />
         <HowToStart />

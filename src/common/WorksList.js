@@ -2,14 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Works() {
+  ButtonClick = () => {
+    console.log("this is:", this);
+  };
+
   return (
     <div>
-      <div class="row">
+      <div className="row">
         <div
           data-aos="fade-right"
           data-aos-duration="800"
           data-aos-delay="100"
-          class="one-half column"
+          className="one-half column"
         >
           <Link to="/works/engineer" className="button column">
             engineer
@@ -19,7 +23,9 @@ export default function Works() {
           data-aos="fade-left"
           data-aos-duration="800"
           data-aos-delay="300"
-          class="one-half column"
+          className="one-half column"
+          id="ToDesign"
+          onClick={this.ButtonClick}
         >
           <Link to="/works/design" className="button column">
             design

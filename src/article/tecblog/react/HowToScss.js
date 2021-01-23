@@ -3,7 +3,7 @@ import React from "react";
 export default function HowToScss() {
   return (
     <div id="HowToSass">
-      <h2 class=".container-fluid">Reactでsass(scss)を使う方法</h2>
+      <h2 className=".container-fluid">Reactでsass(scss)を使う方法</h2>
       <ul>
         <li>
           <a

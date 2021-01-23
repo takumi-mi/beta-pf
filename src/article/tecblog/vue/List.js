@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function List() {
   return (
-    <div class="row">
+    <div className="row">
       <Link
         activeClass="active"
         to="HowToStart"
