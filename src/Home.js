@@ -30,7 +30,7 @@ export default function Home() {
         <WorksList />
         <hr />
         <h2 data-aos="fade" data-aos-duration="1000">
-          TecBlogList
+          TecBlog
         </h2>
         <TecBlogList />
         <hr />
