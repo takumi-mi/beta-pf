@@ -22,13 +22,15 @@ export default function App() {
     once: true
   });
 
+  const PageIsDesign = true;
+
   return (
-    <div className="App">
+    <div className={`App ${PageIsDesign ? "PageIsDesign" : ""}`}>
       <Router>
         <ScrollToTop>
           <Header />
-          <div class="main">
-            <div class="container">
+          <div className="main">
+            <div className="container">
               <Route exact path="/" component={Home} />
               <Route path="/tec-blog" component={TecBlog} />
               <Route path="/works" component={Works} />
