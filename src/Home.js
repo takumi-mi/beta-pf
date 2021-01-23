@@ -7,7 +7,7 @@ export default function Home() {
     <div className="Home">
       <article data-aos="fade" data-aos-duration="1000">
         <h2 class="HomeTitle">Thoughts in Open.β</h2>
-        <p>"Open.β"とは試験的、試作版を意味する言葉。</p>
+        <p>Open.βとは試験的、試作版を意味する言葉。</p>
         <p>
           技術と表現の新しい可能性を探求することに終わりは無く
           <br />
