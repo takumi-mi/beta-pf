@@ -20,13 +20,46 @@ export default function ReactPage() {
           duration={800}
           appearDelay={100}
         >
+          <a href="https://dots-bg.vercel.app/" target="_blank">
+            <img
+              key="key1"
+              src={require("../../_assets/works/engeneer/frontend/works1.png")}
+            />
+          </a>
           <a
-            href="https://www.pinterest.jp/TakumiSasamori_OpenBeta/works/2dcg/"
+            href="https://codesandbox.io/s/compassionate-sun-17i5e"
             target="_blank"
           >
             <img
-              key="key1"
+              key="key2"
               src={require("../../_assets/works/design/2dcg/works2.png")}
+            />
+          </a>
+          <div>
+            <img
+              key="ke3"
+              src={require("../../_assets/works/engeneer/frontend/works2.png")}
+            />
+          </div>
+          <a href="https://siaflab.jp/events/p7079/" target="_blank">
+            <img
+              key="key4"
+              src={require("../../_assets/works/engeneer/frontend/works3.png")}
+            />
+          </a>
+          <a href="https://siaflab.jp/events/p7079/" target="_blank">
+            <img
+              key="key5"
+              src={require("../../_assets/works/engeneer/frontend/works4.jpg")}
+            />
+          </a>
+          <a
+            href="https://codesandbox.io/s/css3-text-distortion-animation-effects-epuio"
+            target="_blank"
+          >
+            <img
+              key="key6"
+              src={require("../../_assets/works/engeneer/frontend/works5.png")}
             />
           </a>
         </StackGrid>

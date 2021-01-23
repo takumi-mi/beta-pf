@@ -137,7 +137,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #555; 
+  color: #555 ; 
   text-decoration: none;
   transition: all .5s;
 }
@@ -157,8 +157,8 @@ input[type="button"] {
   transition: all .5s;
   height: 38px;
   padding: 0 30px;
-  color: #555;
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #555 ;
+  background-color: rgba(255, 255, 255, 0.9) ;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -169,7 +169,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #bbb ;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -182,9 +182,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: white;
+  color: white ;
   border-color: #555;
-  background-color: #333!important;
+  background-color: #333;
   transition: all .5s;
   outline: 0; }
 .button.button-primary,
@@ -192,7 +192,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: #FFF ;
   background-color: #33C3F0;
   transition: all .5s;
   border-color: #33C3F0; }
@@ -206,7 +206,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #FFF !important;
   transition: all .5s;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }

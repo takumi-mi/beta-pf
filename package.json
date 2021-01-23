@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "aos": "2.3.4",
+    "cat-names": "3.0.0",
+    "masonic": "3.4.0",
     "node-sass": "4.14.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
