@@ -21,7 +21,6 @@ export default function Works() {
           data-aos-delay="300"
           className="one-half column"
           id="ToDesign"
-          onClick={this.ButtonClick}
         >
           <Link to="/works/design" className="button column">
             design
