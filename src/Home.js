@@ -5,7 +5,6 @@ import WorksList from "./common/WorksList";
 export default function Home() {
   return (
     <div className="Home">
-      <img src={require("./_assets/works/design/2dcg/2dcg_works01.png")} />
       <article data-aos="fade" data-aos-duration="1000">
         <h2 class="HomeTitle">Thoughts in Open.β</h2>
         <p>"Open.β"とは試験的、試作版を意味する言葉。</p>
