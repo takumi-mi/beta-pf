@@ -10,7 +10,7 @@ export default function Home() {
           <h2 className="HomeTitle">Thoughts in Open.β</h2>
           <p>"Open.β"とは試験的、試作版を意味する言葉。</p>
           <p>
-            技術と表現の新しい可能性を探求することに終わりは無くう
+            技術と表現の新しい可能性を探求することに終わりは無く
             <br />
             常に進化をし続けていくことを目的とする。
           </p>
